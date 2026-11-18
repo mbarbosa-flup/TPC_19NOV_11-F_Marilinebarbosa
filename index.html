@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TPC | História A · 11.º F · Portugal e o mercantilismo</title>
+<meta name="description" content="Trabalho de casa de História A: responde à situação-problema e à questão orientadora, descarrega em Word e entrega no Teams.">
+<style>
+:root{color-scheme:light;--navy:#092e43;--navy2:#0c4b60;--gold:#e8c15c;--gold2:#fff7df;--ink:#172c3a;--sub:#4b6370;--line:#d5e2e8;--background:#edf3f5;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--background);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;line-height:1.55}
+header{background:linear-gradient(115deg,#08273a 0%,#0c4c60 70%,#105d6c 100%);border-bottom:5px solid var(--gold);color:white}
+.header-inner{max-width:1090px;margin:auto;padding:28px 30px 25px}
+.eyebrow{color:#f7d889;font-size:12px;letter-spacing:2.1px;font-weight:850;text-transform:uppercase;margin:0 0 10px}
+h1{font-size:clamp(26px,3.5vw,39px);font-weight:900;margin:0;line-height:1.2;letter-spacing:-.6px}header p{color:#dfedf3;font-size:15px;margin:10px 0 0}
+main{max-width:1090px;margin:0 auto;padding:24px 30px 60px}
+.instructions{background:var(--white);border:1px solid var(--line);padding:17px 20px;border-radius:14px;margin-bottom:19px;display:flex;align-items:flex-start;gap:14px;box-shadow:0 4px 20px #13324809}
+.round-icon{background:#f7eac3;border-radius:11px;padding:7px 12px;font-size:23px;flex:0 0 auto}.instructions p{margin:5px 0 0;color:var(--sub);font-size:14px}
+.section{border-radius:16px;background:white;border:1px solid var(--line);overflow:hidden;margin:19px 0;box-shadow:0 6px 22px #0a2e4408}
+.section h2{font-size:21px;margin:0;line-height:1.25;color:var(--navy)}.section-body{padding:22px 26px 25px}
+.section-top{background:#f5f9fb;border-bottom:1px solid var(--line);padding:15px 26px;display:flex;align-items:center;gap:10px}
+.number{background:var(--navy);color:white;border-radius:9px;padding:5px 12px;font-weight:900;letter-spacing:1px;white-space:nowrap;font-size:13px}
+.number.gold{background:#ca9c2b;color:#142c37}
+.details{display:grid;grid-template-columns:1fr 150px 160px;gap:12px}.field label,.answer-label{display:block;font-size:14px;font-weight:850;color:#1e4053;margin-bottom:7px}input,textarea{font-family:inherit;color:var(--ink)}input{width:100%;border:2px solid var(--line);border-radius:10px;padding:11px 13px;font-size:16px;background:white}input:focus,textarea:focus{outline:none;border-color:#0b7a97;box-shadow:0 0 0 3px #0b7a971a}
+.source-meta{font-size:13px;text-transform:uppercase;letter-spacing:.7px;color:#795b2a;font-weight:900;margin:0 0 10px}.source{background:#fff9ed;border-left:5px solid #dfb859;border-radius:5px 12px 12px 5px;padding:17px 20px;font-size:16px;white-space:pre-line;color:#263848;line-height:1.65;margin-bottom:10px}
+.citation{font-size:12px;color:#62747a;margin:0 0 23px;font-style:italic}.question{font-size:clamp(18px,2.1vw,22px);font-weight:900;color:#0d4058;line-height:1.42;margin:5px 0 12px}.question .quote{color:#956914}
+.hint{font-size:13px;color:#5c6d76;margin:0 0 13px}
+textarea{display:block;width:100%;min-height:205px;resize:vertical;border-radius:12px;padding:15px 17px;border:2px solid var(--line);font-size:16px;line-height:1.7;background:#fff}
+.undertext{display:flex;justify-content:space-between;gap:10px;margin-top:8px;color:#577080;font-size:12px}.wordcount{font-variant-numeric:tabular-nums;font-weight:700}
+.footer-action{margin-top:22px;background:white;border:1px solid #bcd4de;border-radius:16px;padding:24px 26px;box-shadow:0 8px 26px #14374b0c}
+.footer-action h2{font-size:22px;color:var(--navy);margin:0 0 8px}.footer-action p{font-size:14px;margin:0 0 16px;color:var(--sub)}
+.actions{display:flex;gap:10px;flex-wrap:wrap}button,.btn-link{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 19px;border-radius:11px;font-weight:900;font-size:15px;cursor:pointer;font-family:inherit;border:2px solid transparent;text-decoration:none;min-height:47px}
+.primary{background:#e6b743;color:#142d3d}.primary:hover{background:#ffd473}.secondary{background:#0d536d;color:white}.secondary:hover{background:#0c708d}.outline{background:#f6fafc;color:var(--navy);border-color:#c9dce3}.outline:hover{background:#e5f4f8}.muted{background:#fff;color:#6a7280;border-color:#d4e0e4}
+.feedback{margin-top:12px;color:#0e644b;font-size:14px;font-weight:800;min-height:21px}.feedback.error{color:#a33126}
+.teams-steps{margin-top:14px;background:#edf6fa;border-radius:10px;padding:12px 16px;font-size:14px;color:#294a5c}
+footer{text-align:center;color:#6b7b82;font-size:12px;padding:0 12px 25px}
+@media(max-width:700px){.header-inner,main{padding-left:15px;padding-right:15px}.section-body,.section-top{padding:17px}.details{grid-template-columns:1fr 1fr}.details .field:first-child{grid-column:1/-1}.section h2{font-size:17px}.source{font-size:14px}.footer-action{padding:19px}.actions>*{width:100%}textarea{min-height:200px}}
+@media print{*{box-shadow:none!important}body{background:white}header{color:#102d3c!important;background:white!important;border-bottom:2px solid #d5b14e}.eyebrow{color:#6e571b!important}header p{color:#405864}.header-inner{padding:15px 0}main{padding:0}.instructions,.footer-action,.undertext,footer{display:none!important}.section{border:0;page-break-inside:avoid;margin:10px 0 20px}.section-top{background:white;border-bottom:1px solid #bbb;padding:9px 0}.section-body{padding:12px 0}.source{background:white;border-left:3px solid #bba061;padding:8px 12px;font-size:11px}.citation{margin-bottom:12px}.question{font-size:14px}textarea{border:0;padding:0;min-height:auto;height:auto!important;overflow:visible;white-space:pre-wrap;font-size:12px}.details input{border:0;padding:2px;font-size:12px}input,textarea{color:black!important}h1{font-size:24px!important}}
+</style>
+</head>
+<body>
+<header><div class="header-inner"><p class="eyebrow">HISTÓRIA A · 11.º F · TRABALHO DE CASA</p><h1>Portugal — Dificuldades e crescimento económico</h1><p>Da crítica de Padre António Vieira às respostas mercantilistas dos finais do século XVII</p></div></header>
+<main>
+<section class="instructions"><div class="round-icon" aria-hidden="true">✍️</div><div><strong>Investiga, interpreta e fundamenta.</strong><p>Responde individualmente às duas questões. Consulta os apontamentos e as fontes analisadas na aula. No fim, descarrega o ficheiro Word e entrega-o na tarefa do Teams. As tuas respostas não são enviadas automaticamente.</p></div></section>
+<section class="section" aria-labelledby="dados"><div class="section-top"><span class="number">IDENTIFICAÇÃO</span><h2 id="dados">O teu trabalho</h2></div><div class="section-body"><div class="details"><div class="field"><label for="name">Nome completo</label><input id="name" type="text" autocomplete="name" placeholder="Escreve o teu nome" maxlength="110" required></div><div class="field"><label for="number">N.º na turma</label><input id="number" type="number" inputmode="numeric" min="1" max="40" placeholder="N.º" required></div><div class="field"><label for="date">Data</label><input id="date" type="date" required></div></div></div></section>
+<section class="section" aria-labelledby="situacao"><div class="section-top"><span class="number gold">01 · FONTE</span><h2 id="situacao">Regresso à situação-problema</h2></div><div class="section-body">
+<p class="source-meta">Padre António Vieira · Proposta dirigida a D. João IV (1643)</p>
+<div class="source" id="source">«Tudo o que ganham os mercadores estrangeiros, enriquece as suas provincias e patrias, e o que negoceiam os portuguezes fica na nossa. Verdadeiramente é difficultosissima de intender a razão de estado de Portugal, porque sendo um reino fundado todo no commercio, lança os seus mercadores para os reinos estranhos, e aos estranhos os admitte dentro de si mesmo, para que o interesse da negociação e commercio, venha a ser todo dos estranhos, e nada seu.»</div>
+<p class="citation">Padre António Vieira — Proposta dirigida a D. João IV (1643). In <em>Obras Inéditas</em>, tomo II, 1856, p. 42. Transcrição com grafia da edição citada.</p>
+<p class="question">Se Portugal era um reino <span class="quote">«fundado todo no comércio»</span>, como explicar que Vieira considerasse que os seus benefícios favoreciam sobretudo os estrangeiros? <strong>Seria a presença dos mercadores estrangeiros a única explicação?</strong></p>
+<p class="hint">Interpreta a crítica de Vieira e relaciona-a com as dificuldades económicas estudadas. Não basta repetir a citação.</p>
+<label class="answer-label" for="answer1">A tua interpretação histórica</label><textarea id="answer1" spellcheck="true" placeholder="Escreve aqui a tua resposta fundamentada..."></textarea><div class="undertext"><span>Relaciona a fonte com a aula anterior.</span><span class="wordcount" id="words1">0 palavras</span></div>
+</div></section>
+<section class="section" aria-labelledby="questao"><div class="section-top"><span class="number">02 · INVESTIGAÇÃO</span><h2 id="questao">Resposta à questão orientadora</h2></div><div class="section-body">
+<p class="question">Que medidas foram desenvolvidas para superar a crise comercial portuguesa dos finais do século XVII?</p>
+<p class="hint">Explica as medidas e as respetivas finalidades. Fundamenta a tua resposta com evidências de, pelo menos, duas fontes trabalhadas na aula. Distingue intenções de resultados.</p>
+<label class="answer-label" for="answer2">A tua explicação histórica</label><textarea id="answer2" spellcheck="true" placeholder="Redige uma resposta completa, com as medidas e as suas finalidades..."></textarea><div class="undertext"><span>Identifica as fontes que sustentam a tua explicação.</span><span class="wordcount" id="words2">0 palavras</span></div>
+</div></section>
+<section class="footer-action"><h2>Trabalho concluído? Descarrega e entrega.</h2><p>O ficheiro Word contém a tua identificação, a fonte de Padre António Vieira, as duas questões e as respostas que escreveste. Podes revê-lo antes de o submeter.</p><div class="actions"><button class="primary" type="button" id="downloadDocx">⬇ Descarregar para Word (.docx)</button><button class="secondary" type="button" id="printPdf">🖨 Imprimir / guardar em PDF</button><a class="btn-link outline" href="https://teams.cloud.microsoft" target="_blank" rel="noopener noreferrer">Abrir o Teams ↗</a><button class="muted" type="button" id="clear">Limpar respostas</button></div><div class="feedback" id="feedback" role="status" aria-live="polite"></div><div class="teams-steps"><strong>Como entregar:</strong> descarrega o ficheiro Word → abre a tarefa de História no Teams → anexa o ficheiro → seleciona <strong>Entregar</strong>.</div></section>
+</main>
+<footer>História A · 11.º F · 19/11/2026 · Este ficheiro funciona sem Internet e não transmite respostas a serviços externos.</footer>
+<script>
+(function(){'use strict';
+ const $=id=>document.getElementById(id), ids=['name','number','date','answer1','answer2'];
+ const key='tpc-mercantilismo-11F-respostas-v1';
+ const now=new Date();const localDate=new Date(now.getTime()-now.getTimezoneOffset()*60000).toISOString().slice(0,10);$('date').value=localDate;
+ try{const stored=JSON.parse(localStorage.getItem(key)||'null');if(stored){ids.forEach(id=>{if(typeof stored[id]==='string')$(id).value=stored[id]})}}catch(e){}
+ const wordCount=s=>(s.trim().match(/\S+/g)||[]).length;
+ function refresh(){['answer1','answer2'].forEach((id,i)=>{$('words'+(i+1)).textContent=wordCount($(id).value)+' palavras'});}
+ function save(){try{localStorage.setItem(key,JSON.stringify(Object.fromEntries(ids.map(id=>[id,$(id).value]))));}catch(e){}refresh();}
+ ids.forEach(id=>$(id).addEventListener('input',save));refresh();
+ const show=(msg,bad=false)=>{const x=$('feedback');x.textContent=msg;x.classList.toggle('error',bad)};
+ function check(){for(const id of ['name','number','answer1','answer2']){if(!$(id).value.trim()){const label={name:'nome',number:'número',answer1:'primeira resposta',answer2:'segunda resposta'}[id];show('Antes de descarregares, preenche o campo: '+label+'.',true);$(id).focus();return false;}}const n=Number($('number').value);if(!Number.isInteger(n)||n<1||n>40){show('Confirma o teu número na turma.',true);$('number').focus();return false;}return true;}
+ const escapeXML=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&apos;');
+ function p(txt,{bold=false,size=22,color='203646',before=0,after=120,shade=null}={}){let rPr='<w:rPr><w:color w:val="'+color+'"/><w:sz w:val="'+size+'"/>'+(bold?'<w:b/>':'')+'</w:rPr>';let txtXml=escapeXML(txt||' ');return '<w:p><w:pPr><w:spacing w:before="'+before+'" w:after="'+after+'"/>'+(shade?'<w:shd w:val="clear" w:color="auto" w:fill="'+shade+'"/>':'')+'</w:pPr><w:r>'+rPr+'<w:t xml:space="preserve">'+txtXml+'</w:t></w:r></w:p>';}
+ function lines(s,options={}){return String(s).split(/\r?\n/).map(x=>p(x||' ',options)).join('')}
+ function makeDocumentXml(){
+ const quote=$('source').textContent.trim(), q1=document.querySelector('section[aria-labelledby="situacao"] .question').innerText.trim(),q2=document.querySelector('section[aria-labelledby="questao"] .question').innerText.trim();
+ const body=[p('HISTÓRIA A — 11.º F',{bold:true,size:20,color:'A57B1D'}),p('PORTUGAL — DIFICULDADES E CRESCIMENTO ECONÓMICO',{bold:true,size:32,color:'0A3D55',after:70}),p('Trabalho de casa · Situação-problema e questão orientadora',{size:22,color:'385B6D',after:220}),p('Nome: '+$('name').value.trim()+'   |   N.º: '+$('number').value+'   |   Turma: 11.º F',{size:21,bold:true}),p('Data: '+$('date').value,{size:21,after:230}),p('1. SITUAÇÃO-PROBLEMA — PADRE ANTÓNIO VIEIRA (1643)',{bold:true,size:25,color:'0A536B',before:100,after:100}),p(quote,{size:19,color:'344A55',after:110,shade:'FFF5E1'}),p('Fonte: Padre António Vieira, proposta dirigida a D. João IV (1643). In Obras Inéditas, tomo II, 1856, p. 42.',{size:17,color:'61727C',after:180}),p(q1,{bold:true,size:22,after:150}),lines($('answer1').value.trim(),{size:21,after:100}),p(' ',{after:160}),p('2. QUESTÃO ORIENTADORA',{bold:true,size:25,color:'0A536B',before:150,after:100}),p(q2,{bold:true,size:22,after:150}),lines($('answer2').value.trim(),{size:21,after:100})].join('');
+ return '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+'<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"><w:body>'+body+'<w:sectPr><w:pgSz w:w="11906" w:h="16838"/><w:pgMar w:top="1100" w:right="1250" w:bottom="1000" w:left="1250" w:header="708" w:footer="708" w:gutter="0"/></w:sectPr></w:body></w:document>';
+ }
+ function crc32(bytes){let c=0xffffffff;for(const b of bytes){c^=b;for(let j=0;j<8;j++)c=(c>>>1)^((c&1)?0xedb88320:0);}return (c^0xffffffff)>>>0;}
+ function u16(x,offset,val){new DataView(x.buffer,x.byteOffset,x.byteLength).setUint16(offset,val,true)}
+ function u32(x,offset,val){new DataView(x.buffer,x.byteOffset,x.byteLength).setUint32(offset,val>>>0,true)}
+ function zip(files){const enc=new TextEncoder();let pos=0;const locals=[],central=[];let n=0;for(const [name,content] of Object.entries(files)){let nb=enc.encode(name),db=enc.encode(content),crc=crc32(db),len=db.byteLength;
+   let lh=new Uint8Array(30+nb.length);u32(lh,0,0x04034b50);u16(lh,4,20);u16(lh,6,0x0800);u16(lh,8,0);u16(lh,10,0);u16(lh,12,0);u32(lh,14,crc);u32(lh,18,len);u32(lh,22,len);u16(lh,26,nb.length);u16(lh,28,0);lh.set(nb,30);locals.push(lh,db);
+   let ch=new Uint8Array(46+nb.length);u32(ch,0,0x02014b50);u16(ch,4,20);u16(ch,6,20);u16(ch,8,0x0800);u16(ch,10,0);u16(ch,12,0);u16(ch,14,0);u32(ch,16,crc);u32(ch,20,len);u32(ch,24,len);u16(ch,28,nb.length);u16(ch,30,0);u16(ch,32,0);u16(ch,34,0);u16(ch,36,0);u32(ch,38,0);u32(ch,42,pos);ch.set(nb,46);central.push(ch);pos+=lh.length+len;n++;}
+ let csize=central.reduce((a,b)=>a+b.length,0);let end=new Uint8Array(22);u32(end,0,0x06054b50);u16(end,4,0);u16(end,6,0);u16(end,8,n);u16(end,10,n);u32(end,12,csize);u32(end,16,pos);u16(end,20,0);return new Blob([...locals,...central,end],{type:'application/vnd.openxmlformats-officedocument.wordprocessingml.document'});}
+ function docx(){const types='<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/word/document.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml"/></Types>';
+ const rel='<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="word/document.xml"/></Relationships>';
+ return zip({'[Content_Types].xml':types,'_rels/.rels':rel,'word/document.xml':makeDocumentXml()});}
+ $('downloadDocx').addEventListener('click',()=>{if(!check())return;try{let blob=docx(),url=URL.createObjectURL(blob),a=document.createElement('a'),person=$('name').value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-zA-Z0-9]+/g,'_').replace(/^_|_$/g,'').slice(0,55);a.href=url;a.download='TPC_Historia_11F_N'+$('number').value+'_'+person+'.docx';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),15000);show('Ficheiro Word descarregado. Agora anexa-o à tarefa no Teams.');}catch(e){show('Não foi possível criar o Word neste navegador. Experimenta a opção de imprimir / guardar em PDF.',true);console.error(e)}});
+ $('printPdf').addEventListener('click',()=>{document.querySelectorAll('textarea').forEach(t=>t.style.height=Math.max(t.scrollHeight,150)+'px');window.print();});
+ $('clear').addEventListener('click',()=>{if(!window.confirm('Queres apagar todas as respostas e a identificação deste dispositivo?'))return;ids.forEach(id=>$(id).value='');$('date').value=localDate;save();show('Os campos foram limpos.');$('name').focus();});
+})();
+</script>
+</body>
+</html>
